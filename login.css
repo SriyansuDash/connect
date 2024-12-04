@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+body {
+    font-family: 'Manrope', sans-serif;
+    background-image: url(https://images.hdqwalls.com/wallpapers/geometry-abstract-4k-art-fx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3pc;
+    overflow: hidden;
+    max-width:786px ;
+    width: 100%;
+}
+.head img{
+    max-width: 100px;
+    border-radius: 200px;
+}
+
+.head h1 a{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #cfcaca;
+    font-size: 2em;
+    position: relative;
+    left : 130px;
+    top: -125px;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 11vh;
+    right: -30%;
+    width: 700px;
+    height: 370px;
+    border: 0 solid whitesmoke;
+    border-radius: 30px;
+    background-color: rgba(8, 69, 91, 0.783);
+    box-shadow: 0 0 10pc rgba(23, 142, 172, 0.727);
+}
+.formheader p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    position: relative;
+    top: -80px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+.username p{
+    text-align: center; 
+    font-size: 27px;
+    position: absolute;
+    bottom : 55%;
+    left: 35%;    
+    color: aquamarine;
+}
+.inputbox{
+    position: relative;
+    text-align: right;
+}
+.inputbox .textinput{
+    width: 80%;
+    min-height: 60px;
+    font-size: 20px;
+    border: 0px solid #c8c8c88c;
+    border-radius: 20px;
+    background-color: #74797a6e;
+    color: aliceblue;
+    font-size: x-large;
+    position: relative;
+    top: 15px;
+    text-align: center;
+    
+}
+.inputbox .textinput::placeholder{
+    color: #ffffffbe;
+    font-size: 25px;
+    text-align: center;
+}
+.button .btn{
+    position: relative;
+    left: 35%;
+    vertical-align: center;
+    top :55px;
+    padding: 30px;
+    font-size: 25px;
+    background-color: #26373fa3;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    cursor: pointer;    
+    height: 1px;
+    width: 200px;
+    border: 0;
+}
+.button .btn p{
+    position: relative;
+    top: -40px;
+}
+.register{
+    display: flex;
+    justify-content: end;
+    align-items:end;
+    position: relative;
+    top: 100px;
+    right: 10%;
+    font-size: x-large;
+}
+.register a{
+    color: blanchedalmond;
+    font-size: 1.5pc;
+    margin-left: 10px;
+}
+@media only screen and (max-width:786px){
+    body {
+        font-family: 'Manrope', sans-serif;
+        background-image: url(https://wallpapercave.com/wp/wp6437177.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-height:1920px;
+        height: 100%;
+        margin: 1pc;
+        overflow: hidden;
+    }
+    .head img{
+        max-width: 40px;
+        border-radius: 120px;
+    }
+    
+    .head h1 a{
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        color: #cfcaca;
+        font-size: 22px;
+        position: relative;
+        left : 55px;
+        top: -73px;
+        text-decoration: none;
+    }
+    
+    .container {
+        margin: 0 ;
+        max-width: 60px;
+        padding: 30px;
+        top: 11vh;
+        left: 10%;
+        width: 700px;
+        height: 370px;
+        border: 0 solid whitesmoke;
+        border-radius: 30px;
+        background-color: rgba(8, 69, 91, 0.783);
+        box-shadow: 0 0 10pc rgba(23, 142, 172, 0.727);
+    }
+    .formheader p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        position: absolute;
+        top: -10px;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        font-weight: 300;
+        width: 600px;
+    }
+    .username p{
+        text-align: center; 
+        font-size: 27px;
+        position: absolute;
+        bottom : 55%;
+        left: 35%;    
+        color: aquamarine;
+    }
+    .inputbox{
+        position: relative;
+        text-align: right;
+    }
+    .inputbox .textinput{
+        width: 80%;
+        min-height: 60px;
+        font-size: 20px;
+        border: 0px solid #c8c8c88c;
+        border-radius: 20px;
+        background-color: #74797a6e;
+        color: aliceblue;
+        font-size: x-large;
+        position: relative;
+        top: 15px;
+        text-align: center;
+        
+    }
+    .inputbox .textinput::placeholder{
+        color: #ffffffbe;
+        font-size: 25px;
+        text-align: center;
+    }
+    .button .btn{
+        position: relative;
+        left: 35%;
+        vertical-align: center;
+        top :55px;
+        padding: 30px;
+        font-size: 25px;
+        background-color: #26373fa3;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        cursor: pointer;    
+        height: 1px;
+        width: 200px;
+        border: 0;
+    }
+    .button .btn p{
+        position: relative;
+        top: -40px;
+    }
+    .register{
+        display: flex;
+        justify-content: end;
+        align-items:end;
+        position: relative;
+        top: 100px;
+        right: 10%;
+        font-size: x-large;
+    }
+    .register a{
+        color: blanchedalmond;
+        font-size: 1.5pc;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width:1200px){
+    
+}
